@@ -51,6 +51,13 @@ News pagina
 
 <details>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
+  
+  Toegangkelijkheidstest Resultaten:
+  <img src="" alt="Toegangkelijkheidstest pagina 1">
+  <img src="" alt="Toegangkelijkheidstest pagina 2">
+  <img src="" alt="Toegangkelijkheidstest pagina 3">
+  <img src="" alt="Toegangkelijkheidstest pagina 4">
+  <img src="" alt="Toegangkelijkheidstest pagina 5">
 
 ### Bevindingen
 
@@ -112,10 +119,14 @@ samen met je groepje opstellen
 
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Div's wegwerken en meer sections gebruiken.
+- Voor de sections een invisible header gebruiken zodat het door screenreaders is te lezen.
+- Span weghalen en UL van maken.
+- Op de news pagina kan je de pagina nummer scroller maken met UL.
+- Taal naar Engels veranderen.
+- Toegangkelijkheidstest toevoegen aan README.
+- H1 zien te verwerken en H3's die er nu in staan veranderen.
+- Logo in H1 zetten op home pagina
 
 </details>
 
