@@ -126,7 +126,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 - Taal naar Engels veranderen.
 - Toegangkelijkheidstest toevoegen aan README.
 - H1 zien te verwerken en H3's die er nu in staan veranderen.
-- Logo in H1 zetten op home pagina
+- Logo in H1 zetten op home pagina.
 
 </details>
 
@@ -137,7 +137,23 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Stand van zaken
 
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik ben begonnen met de CSS, maar er zijn nog een paar HTML zaken die ik nog niet weet hoe ik die precies moet toepassen. Om alsnog verder te kunnen heb ik zoveel mogelijk gedaan qua CSS, alleen naar mijn idee kan de manier hoe ik dingen heb gecodeerd makkelijker en efficienter, dus ga ik hier naar vragen. Daarnaast heb ik ook allemaal vragen over CSS en JS zaken zoals hoe ik bijvoorbeeld het beste de image slideshows kan aanpassen.
+
+Dingen om naar te vragen:
+
+- Hoe kan je het beste te werk gaan met het maken van de image slideshow, en daar ook de pijlen aan toe te voegen?
+- Hoe zorg je ervoor dat je een image hebt waar als je er over heen hoverd, er tekste verschijnt?
+- Hoe kan je het beste alles op de pagina scalen om het telefoon formaat te maken?
+- Hoe krijg je de iconen voor de socials zonder images te gebruiken?
+- Hoe maak je images clickable?
+- Hoe gebruik je precies forms? (ik zou niet weten hoe ik deze in mijn website moet toepassen)
+- Hoe kan ik mijn CSS verbeteren en overzichtelijker maken?
+
+Visuele ondersteuning van waar ik tegen aanloop:
+
+<img src="readme-images/image-slideshow-probleem-screenshot.png" alt="slideshow images waarvan ik niet weet hoe ik moet beginnen">
+<img src="readme-images/image-hover-tekst-probleem-screenshot.png" alt="tekst wat tevoorschijn zou moeten komen als je over een img hoverd">
+<img src="readme-images/socials-en-sizing-probleem-screenshot.png" alt="te grote elementen zorgen voor te brede website, en socials hebben iconen waarvan ik niet weet waar ik ze kan krijgen">
 
 ### Agenda voor meeting
 
@@ -153,10 +169,17 @@ samen met je groepje opstellen
 
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- De nav items kunnen in een details element.
+- De socials iconen zijn een font, maar het beste is omg er svg's van te vinden.
+- News en updates stukje kan met position absolute, opacity, en active/hover states (moeten nog wel afbeeldingen bij).
+- CSS alle algemene element structures bij elkaar zetten, daarna specifiek gaan aanspreken.
+- Youtube video is gewoon goed.
+- Alle elementen moeten natuurlijk nog netjes geplaats worden.
+- Focus moet vooral liggen op flexbox en grids om het responsive te maken.
+- HTML klopt maar mist nog een paar dingen zoals de images clickable maken en een form uitwerken.
+- De image slideshow kan door het met flexbox naast elkaar te zetten, en dan overflow en scroll snap toe te passen.
+- Header levels kloppen.
+- Afbeeldingen gaan downloaden en niet meer de links gebruiken.
 
 </details>
 
