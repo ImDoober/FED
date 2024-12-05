@@ -53,11 +53,11 @@ News pagina
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
   
   Toegangkelijkheidstest Resultaten:
-  <img src="" alt="Toegangkelijkheidstest pagina 1">
-  <img src="" alt="Toegangkelijkheidstest pagina 2">
-  <img src="" alt="Toegangkelijkheidstest pagina 3">
-  <img src="" alt="Toegangkelijkheidstest pagina 4">
-  <img src="" alt="Toegangkelijkheidstest pagina 5">
+  <img src="readme-images/Toegangkelijkheidstest-1-pagina-1.jpg" alt="Toegangkelijkheidstest pagina 1">
+  <img src="readme-images/Toegangkelijkheidstest-1-pagina-2.jpg" alt="Toegangkelijkheidstest pagina 2">
+  <img src="readme-images/Toegangkelijkheidstest-1-pagina-3.jpg" alt="Toegangkelijkheidstest pagina 3">
+  <img src="readme-images/Toegangkelijkheidstest-1-pagina-4.jpg" alt="Toegangkelijkheidstest pagina 4">
+  <img src="readme-images/Toegangkelijkheidstest-1-pagina-5.jpg" alt="Toegangkelijkheidstest pagina 5">
 
 ### Bevindingen
 
@@ -69,6 +69,12 @@ News pagina
 - De naam smiski herkent hij niet en word dus helemaal uitgespeld.
 - Hij leest de tekst van de afbeeldingen twee keer, best onnodig.
 - Rare tekentjes in de tekst zorgen ervoor dat hij confused raakt.
+- De html heeft nog heel veel error messages.
+- Er is geen h1 en de headings beginnen pas bij h3.
+- Sommige images hebben geen alt texts of text versie indien nodig is.
+- Er is geen transcipt mogelijk voor de youtube video.
+- Er is geen skip link voor de screenreader.
+- Er is geen support voor dark/light of high-contrast mode, en bij sommige elementen is het kleurverschil niet goed genoeg.
 
 </details>
 
@@ -77,17 +83,13 @@ News pagina
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
-### de hele pagina:
+### Home pagina:
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Full-homepage-screenshot.png" width="375px" alt="breakdown van de hele homepagina">
 
-### dynamisch deel (bijv menu):
+### News pagina:
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-### wellicht nog een dynamisch deel (bijv filter):
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/Full-newspage-screenshot.png" width="375px" alt="breakdown van de hele newspagina">
 
 </details>
 
@@ -107,13 +109,7 @@ Zie afbeeldingen hieronder voor meer duidelijkheid.
 
 ### Agenda voor meeting
 
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| -------------- | ------------------ | ------------ | ---------------- |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+Iedereen had helemaal geen tijd om samen te komen zitten.
 
 ### Verslag van meeting
 
@@ -157,20 +153,14 @@ Visuele ondersteuning van waar ik tegen aanloop:
 
 ### Agenda voor meeting
 
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| -------------- | ------------------ | ------------ | ---------------- |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+De helft van het groepje ging niet komen opdagen dus zijn we niet samen gaan zitten.
 
 ### Verslag van meeting
 
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
 - De nav items kunnen in een details element.
-- De socials iconen zijn een font, maar het beste is omg er svg's van te vinden.
+- De socials iconen zijn een font, maar het beste is om er svg's van te vinden.
 - News en updates stukje kan met position absolute, opacity, en active/hover states (moeten nog wel afbeeldingen bij).
 - CSS alle algemene element structures bij elkaar zetten, daarna specifiek gaan aanspreken.
 - Youtube video is gewoon goed.
