@@ -178,9 +178,21 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <details>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
+Toegangkelijkheidstest Resultaten:
+<img src="readme-images/Toegangkelijkheidstest-2-pagina-1.jpg" alt="Toegangkelijkheidstest 2 pagina 1">
+<img src="readme-images/Toegangkelijkheidstest-2-pagina-2.jpg" alt="Toegangkelijkheidstest 2 pagina 2">
+<img src="readme-images/Toegangkelijkheidstest-2-pagina-3.jpg" alt="Toegangkelijkheidstest 2 pagina 3">
+<img src="readme-images/Toegangkelijkheidstest-2-pagina-4.jpg" alt="Toegangkelijkheidstest 2 pagina 4">
+<img src="readme-images/Toegangkelijkheidstest-2-pagina-5.jpg" alt="Toegangkelijkheidstest 2 pagina 5">
+
 ### Bevindingen
 
-Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+- Word nogsteeds heel vaak koppeling of heading level aangegeven en gezegd.
+- De HTML is nu wel netjes en dus ook goed gekeurd door de validation.
+- Heading levels zijn nu netjes aflopend en beginnen ook daadwerkelijk bij h1.
+- Alle img elementen hebben nu wel een alt tekst.
+- Skip link moet nog toegevoegd worden.
+- Er moet nog veel gedaan worden aan vormgeving, zoals reduced-motion, contrasten en verschillende modes zoals dark/light en high-contrast.
 
 </details>
 
@@ -191,26 +203,27 @@ Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er v
 
 ### Stand van zaken
 
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Waar ik deze week vooral tegen aan loop is vormgeving. De elementen hebben allemaal whitespace eromheen die er niet hoort te zijn, de image slideshows zijn verschillende grotes wat niet hoort, en het lukt niet om ze te laten snappen met scroll snap. Het zijn allemaal dingetjes waarvan ik denk dat ze makkelijk opgelost kunnen worden, maar het lukt mij op dit moment niet om die oplossing te vinden.
+
+Visuele ondersteuning van waar ik tegen aanloop:
+
+<img src="readme-images/scroll-snap-probleem.png" alt="Hierbij lukt het mij niet om de scrollsnap toe te passen op de image slideshow">
+<img src="readme-images/border-whitespace-probleem.png" alt="Alle elementen hebben whitespace eromheen en soms is dat handig, meestal niet dus wil ik er vanaf komen">
 
 ### Agenda voor meeting
 
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| -------------- | ------------------ | ------------ | ---------------- |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+We zijn niet samen gaan zitten omdat iedereen heel specifieke vragen had voor zijn of haar website en er zowat niks overheen kwam.
 
 ### Verslag van meeting
 
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Bij de news en updates section kan alles in een list gezet worden om het makkelijker vorm te geven.
+- Margin gebruiken bij de image sliders om ruimte ertussen te creeën.
+- De images moeten hight hebben om allemaal even groot te zijn.
+- De bovenste image slideshow is niet scroll, maar een transition. Het is wel handig om het toch scroll te houden tenzij je echt nog een animatie nodig hebt.
+- Bij scroll snap moet je op de items zelf "scroll-snap-align: start;" zetten om het te laten werken.
+- De product images kan je met flex-wrap en padding laten werken, door het bovenste item padding te geven en dus alleen die dan aan te spreken.
 
 </details>
 
@@ -221,19 +234,25 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Je uitkomst - karakteristiek screenshots:
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/eindresultaat-home-pagina.png" width="375px" alt="uitomst home pagina">
+  <img src="readme-images/eindresultaat-news-pagina.png" width="375px" alt="uitomst news pagina">
 
 ### Dit ging goed/Heb ik geleerd:
 
-Korte omschrijving met plaatjes
+Korte omschrijving met plaatjes:
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+De responsiveness op de news pagina ging goed en is op alle grotes goed te gebruiken. Daarnaast is de nav bar makkelijker en beter gelukt dan ik had verwacht, ondanks hij niet helemaal is zoals ik had gewild.
+
+  <img src="readme-images/responsive-succes.png" width="375px" alt="responsiveness die goed ging">
+  <img src="readme-images/nav-bar-succes.png" width="375px" alt="nav die goed ging">
 
 ### Dit was lastig/Is niet gelukt:
 
-Korte omschrijving met plaatjes
+Ik had heel veel moeite met de slideshow responsive te maken doordat de img's verschillende grotes hadden en niet wouden meewerken. Daardoor is de resposiveness van de home pagina niet zo goed als ik had gehoopt. Er zijn gewoon veel dingen waarvoor ik niet de tijd had om ze verder uit te werken, terwijl ik dat wel graag had gedaan. Daarnaast speelde er in mijn familie ook nog dingen waardoor ik minder tijd had dan gehoopt. Hierdoor is mijn CSS niet zoals ik had gehoopt.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/home-pagina-fail.png" width="375px" alt="responsiveness fail">
+  <img src="readme-images/slideshow-fail.png" width="375px" alt="slideshow fail">
+
 </details>
 
 ## Bronnenlijst
@@ -245,8 +264,11 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 Nb. ChatGpT en andere AI horen er ook bij.
 Nb. Vermeld de bronnen ook in je code.
 
-1. bron 1
-2. bron 2
-3. ...
+1. Bron van allemaal code: https://codepen.io/your-work
+2. Bron voor social icon svg's: https://www.svgrepo.com
+3. Bron voor grid items: https://cssgridgarden.com/#nl
+4. Bron voor flexbox items: https://flexboxfroggy.com/#nl
+5. Hamburger menu SVG: https://icons8.com/icons/set/hamburger-menu
+6. Roboto font: https://fonts.google.com/specimen/Roboto
 
 </details>

@@ -7,6 +7,12 @@
 
     <title>【OFFICIAL SITE】SMISKI</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link href="styles/style.css" rel="stylesheet" />
     <link rel="icon" type="image/x-icon" href="/images/flavicon-icon.png" />
     <script defer src="scripts/script.js"></script>
@@ -15,10 +21,9 @@
   <body>
     <header>
       <h1 tabindex="0">
-        <img
-          src="https://smiski.com/e/wp-content/uploads/2016/03/top_logo.png"
-          alt="Home page"
-        />
+        <a href="index.html">
+          <img src="images/nav_logo.png" alt="Home page" />
+        </a>
       </h1>
       <nav>
         <ul>
@@ -44,8 +49,22 @@
           <li><a href="news.html">WHERE TO BUY</a></li>
           <li><a href="news.html">日本語</a></li>
         </ul>
-        <button>Hamburger menu</button>
       </nav>
+      <button aria-labelledby="Hamburger-menu button">
+        <!-- SVG gehaald van: https://icons8.com/icons/set/hamburger-menu -->
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          x="0px"
+          y="0px"
+          width="100"
+          height="100"
+          viewBox="0 0 50 50"
+        >
+          <path
+            d="M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z"
+          ></path>
+        </svg>
+      </button>
     </header>
 
     <main>
@@ -55,32 +74,32 @@
         <!-- Image slideshow -->
         <a href="news.html"
           ><img
-            src="https://smiski.com/e/wp-content/uploads/2020/12/mv_smiski_museum_sample.png"
-            alt="Smiski museum collection banner"
+            src="images/slide-show-images/smiski_museum_banner.png"
+            alt="Smiski museum collection"
           />
         </a>
         <a href="news.html">
           <img
-            src="https://smiski.com/e/wp-content/uploads/2024/09/500_800.jpg"
-            alt="Smiski hippers banner"
+            src="images/slide-show-images/smiski_hippers_banner.jpg"
+            alt="Smiski hippers collection"
           />
         </a>
         <a href="news.html">
           <img
-            src="https://smiski.com/e/wp-content/uploads/2024/01/smiski_moving_banner.jpg"
-            alt="Smiski moving collection banner"
+            src="images/slide-show-images/smiski_moving_banner.jpg"
+            alt="Smiski moving collection"
           />
         </a>
         <a href="news.html">
           <img
-            src="https://smiski.com/e/wp-content/uploads/2022/02/img_news220208_01.jpg"
-            alt="Smiski work collection banner"
+            src="images/slide-show-images/smiski_work_banner.jpg"
+            alt="Smiski work collection"
           />
         </a>
         <a href="news.html">
           <img
-            src="https://smiski.com/e/wp-content/uploads/2023/01/img_smiski_banner.jpg"
-            alt="Smiski zipperbite banner"
+            src="images/slide-show-images/smiski_zipperbite_banner.jpg"
+            alt="Smiski zipperbite"
           />
         </a>
       </section>
@@ -90,15 +109,12 @@
         <h2></h2>
         <!-- About section -->
         <a href="news.html">
-          <img
-            src="https://smiski.com/e/wp-content/uploads/2018/02/banner_smi_en-1.png"
-            alt="About section banner"
-          />
+          <img src="images/about_section_banner.png" alt="About section" />
         </a>
       </section>
 
+      <!-- News and updates -->
       <section>
-        <!-- News and updates -->
         <h2 tabindex="0">NEWS & UPDATES</h2>
         <!-- Image slideshow -->
         <div>
@@ -108,7 +124,7 @@
               series “HIPPERS”.
             </h3>
             <img
-              src="https://smiski.com/e/wp-content/uploads/2024/09/smiski_hippers_banner01-300x199.jpg"
+              src="images/slide-show-images/smiski_hippers_product_banner.jpg"
               alt="Smiski hippers collection"
             />
           </a>
@@ -118,7 +134,7 @@
               Touch Light』
             </h3>
             <img
-              src="https://smiski.com/e/wp-content/uploads/2024/02/smiski_light_banner01-300x188.jpg"
+              src="images/slide-show-images/smiski_light_banner.jpg"
               alt="Smiski touch light"
             />
           </a>
@@ -128,7 +144,7 @@
               Series』
             </h3>
             <img
-              src="https://smiski.com/e/wp-content/uploads/2024/01/smiski_moving_banner-300x188.jpg"
+              src="images/slide-show-images/smiski_moving_product_banner.jpg"
               alt="Smiski moving series collection"
             />
           </a>
@@ -138,7 +154,7 @@
               Series』
             </h3>
             <img
-              src="https://smiski.com/e/wp-content/uploads/2023/05/SMI_banner1000_1000-300x300.jpg"
+              src="images/slide-show-images/smiski_exercising_product_banner.jpg"
               alt="Smiski exercising series collection"
             />
           </a>
@@ -148,86 +164,83 @@
               Release：『ZIPPERBITE™ SMISKI』
             </h3>
             <img
-              src="https://smiski.com/e/wp-content/uploads/2023/01/img_smiski_banner-300x188.jpg"
+              src="images/slide-show-images/smiski_zipperbite_product_banner.jpg"
               alt="Smiski zipperbite"
             />
           </a>
         </div>
       </section>
 
+      <!-- New Products -->
       <section>
-        <!-- New Products -->
         <h2 tabindex="0">NEW PRODUCTS</h2>
         <h3 tabindex="0">Mini figure</h3>
         <a href="news.html">
           <img
-            src="https://smiski.com/e/wp-content/uploads/2024/09/HIPPERS.png"
+            src="images/product-images/hippers_collection.png"
             alt="Smiski hippers collection"
           />
         </a>
         <a href="news.html">
           <img
-            src="https://smiski.com/e/wp-content/uploads/2024/09/smiski.com_product_icon.png"
+            src="images/product-images/moving_series.png"
             alt="smiski moving series collection"
           />
         </a>
         <a href="news.html">
           <img
-            src="https://smiski.com/e/wp-content/uploads/2024/01/Exercising_Series_icon.png"
+            src="images/product-images/excersising_series.png"
             alt="smiski exercising series collection"
           />
         </a>
         <a href="news.html">
           <img
-            src="https://smiski.com/e/wp-content/uploads/2023/05/dressing_series_icon.png"
+            src="images/product-images/dressing_series.png"
             alt="smiski dressing series collection"
           />
         </a>
         <a href="news.html">
           <img
-            src="https://smiski.com/wp-content/uploads/2022/11/smiski.com_product_iconatwork.png"
+            src="images/product-images/work_series.png"
             alt="smiski @ work series collection"
           />
         </a>
       </section>
 
+      <!-- Other goods -->
       <section>
-        <!-- Other goods -->
         <h3 tabindex="0">Other goods</h3>
         <a href="news.html">
           <img
-            src="https://smiski.com/e/wp-content/uploads/2024/05/smiski.com_product_icon.png"
+            src="images/product-images/touch_light.png"
             alt="Smiski touch light"
           />
         </a>
         <a href="news.html">
           <img
-            src="https://smiski.com/e/wp-content/uploads/2023/01/smiski.com_product_icon.png"
+            src="images/product-images/zipperbite.png"
             alt="Smiski zipperbite"
           />
         </a>
         <a href="news.html">
-          <img
-            src="https://smiski.com/wp-content/uploads/2022/11/smiski.com_product_iconrainbomb.png"
-            alt="Smiski rainbomb"
-          />
+          <img src="images/product-images/rainbomb.png" alt="Smiski rainbomb" />
         </a>
         <a href="news.html">
           <img
-            src="https://smiski.com/wp-content/uploads/2022/11/smiski.com_product_iconbobbinghead.png"
+            src="images/product-images/bobbing_head.png"
             alt="Smiski bobbing head"
           />
         </a>
         <a href="news.html">
           <img
-            src="https://smiski.com/wp-content/uploads/2022/11/smiski.com_product_iconkeychain.png"
+            src="images/product-images/key_chain.png"
             alt="Smiski keychains"
           />
         </a>
       </section>
 
+      <!-- Smiski channel -->
       <section>
-        <!-- Smiski channel -->
         <h2 tabindex="0">SMISKI CHANNEL</h2>
         <iframe
           width="560"
@@ -240,33 +253,56 @@
         ></iframe>
       </section>
 
+      <!-- Follow smiski -->
       <section>
-        <!-- Follow smiski -->
         <h3 tabindex="0">FOLLOW SMISKI</h3>
         <form>
           <fieldset>
-            <legend>Follow our newspage</legend>
-            <label for="name">First and last name</label>
+            <legend tabindex="0">FOLLOW OUR NEWSPAGE</legend>
+            <label for="name" tabindex="0">YOUR FIRST AND LAST NAME</label>
             <input type="text" id="name" />
-            <label for="e-mail">Your e-mail</label>
+            <label for="e-mail" tabindex="0">YOUR E-MAIL</label>
             <input type="text" id="e-mail" />
+            <button>Send</button>
           </fieldset>
         </form>
+
+        <!-- Bron voor social icon svg's: https://www.svgrepo.com -->
         <ul>
           <li>
-            <a href="news.html">1</a>
+            <a href="news.html"
+              ><img
+                src="images/social-icons/facebook-logo-svgrepo-com.svg"
+                alt="Facebook icon"
+            /></a>
           </li>
           <li>
-            <a href="news.html">2</a>
+            <a href="news.html"
+              ><img
+                src="images/social-icons/twitter-alt-svgrepo-com.svg"
+                alt="Twitter icon"
+            /></a>
           </li>
           <li>
-            <a href="news.html">3</a>
+            <a href="news.html"
+              ><img
+                src="images/social-icons/instagram-svgrepo-com.svg"
+                alt="Instagram icon"
+            /></a>
           </li>
           <li>
-            <a href="news.html">4</a>
+            <a href="news.html"
+              ><img
+                src="images/social-icons/youtube-rounded-square-logo-svgrepo-com.svg"
+                alt="Youtube icon"
+            /></a>
           </li>
           <li>
-            <a href="news.html">5</a>
+            <a href="news.html"
+              ><img
+                src="images/social-icons/brand-tiktok-sq-svgrepo-com.svg"
+                alt="Tiktok icon"
+            /></a>
           </li>
         </ul>
       </section>
@@ -274,11 +310,44 @@
 
     <footer>
       <p>© 2016 Dreams Inc.</p>
-      <a href="news.html">Facebook</a>
-      <a href="news.html">Twitter</a>
-      <a href="news.html">Youtube</a>
-      <a href="news.html">Instagram</a>
-      <a href="news.html">Tiktok</a>
+      <!-- Bron voor social icon svg's: https://www.svgrepo.com -->
+      <ul>
+        <li>
+          <a href="news.html"
+            ><img
+              src="images/social-icons/facebook-logo-svgrepo-com.svg"
+              alt="Facebook icon"
+          /></a>
+        </li>
+        <li>
+          <a href="news.html"
+            ><img
+              src="images/social-icons/twitter-alt-svgrepo-com.svg"
+              alt="Twitter icon"
+          /></a>
+        </li>
+        <li>
+          <a href="news.html"
+            ><img
+              src="images/social-icons/youtube-rounded-square-logo-svgrepo-com.svg"
+              alt="youtube icon"
+          /></a>
+        </li>
+        <li>
+          <a href="news.html"
+            ><img
+              src="images/social-icons/instagram-svgrepo-com.svg"
+              alt="Instagram icon"
+          /></a>
+        </li>
+        <li>
+          <a href="news.html"
+            ><img
+              src="images/social-icons/brand-tiktok-sq-svgrepo-com.svg"
+              alt="Tiktok icon"
+          /></a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>
